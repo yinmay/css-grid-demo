@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid: 100px/repeat(2, 1fr 2fr);
+  grid-gap: 10px;
+}
+.container > div {
+  background: #999;
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+}
